@@ -349,9 +349,61 @@ rel="stylesheet">
 
 <div data-modal class="is-hidden">
     <div data-modal-content>
-        <h1></h1>
-        <p></p>
         <button data-modal-close type="button">X</button>
+        <h2 class="modal_title">
+            Leave your information and we'll call you back
+        </h2>
+        <form name="modal_form" class="modal_form">
+            <label class="modal_form_position"
+            >Name
+            <input type="text" name="usersame" class="modal_form_input">
+            <svg widht="12px" height="12px">
+                <use href="./images/icons/form-icons.svg#icon-person"></use>
+            </svg>
+        </label>
+            <label class="modal_form_position"
+            >Telefon
+                <input type="tel" name="userphone" class="modal_form_input">
+                <svg width="12px" height="12px">
+                    <use href="./images/icons/form-icons.svg#icon-phone"></use>
+                  </svg>
+            </label>
+            <label class="modal_form_position"
+            >E-mail
+            <input type="email" name="useremail" class="modal_form_input">
+            <svg width="12px" height="12px">
+                <use href="./images/icons/form-icons.svg#icon-email"></use>
+              </svg>
+        </label>
+        <label class="modal_form_position"
+        > Mesaj
+            <textarea 
+            name="mesaj" 
+            placeholder="Introdu mesajul tau" 
+            class="modal_form_comments"
+            rows="5">
+            </textarea>
+        </label>
+        <label class="modal_form_position modal_form_checked">
+        <input 
+        type="checkbox" 
+        name="agree" 
+        value="agree" 
+        class="modal_form_input"/>
+        <span class="replace_checkbox modal_checkbox_position">
+            <svg>
+              <use href="./images/icons/form-icons.svg#icon-checked"></use>
+            </svg>
+          </span>
+        <!-- <span class="replace_checkbox modal_checkbox_position">
+            <svg>
+                <use href="./images/icons/form-icons.svg#icon-checked"></use>
+              </svg>
+        </span>  -->
+        I agree with the letter and accept the <a href="" class="condition">Term and Conditions</a>
+    </label>
+    <button type="submit" class="modal_form-btn">Send</button>
+        </form>
     </div>
 </div>
 
