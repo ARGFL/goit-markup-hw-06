@@ -638,6 +638,62 @@ margin-top: 90px;
         
     }
 
+    .footer_section_subtitle {
+    font: var(--primary-font);
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 3%;
+    color: var(--white);
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    }
+    .footer_section_form_email {
+        font-family: var(--primary-font);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 3%;
+      margin-right: 8px;
+        border-radius: 4px;
+        width: 350px;
+        height: 50px;
+        top:2787px;
+        left: 1185px; 
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding-left: 12px;
+        background-color: #2F303A ;
+        box-shadow: 0px 4px 4px 0px var(--black) ;
+        cursor: default;
+        margin-top: 5px;
+
+    }
+    .button_section_form_btn {
+        font-size: 16px;
+        font-weight: 700px;
+        line-height: 30px;
+        font-family: var(--primary-font);
+        letter-spacing: 0.06em;
+        text-align: center;
+        color: var(--white);
+        background-color: var(--blue);
+        width: 200px;
+        height: 50px;
+        top:2787px;
+        left: 1185px; 
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px var(--black) ;
+        padding: 8px;
+    }
+
+    .button_section_form_btn svg {
+        width: 24px;
+        height: 24px;
+        padding-top: -10px;
+        padding-left: 10px;
+        fill: var(--white);
+    }
+
 /* Portofolio Page Section */
 
 :root {
